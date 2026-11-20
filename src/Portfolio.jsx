@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import MyImg.png from './assets/MyImg.png'
+import nour from './assets/nour.png'
 
 const Portfolio = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -55,7 +55,7 @@ const Portfolio = () => {
           <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-zinc-700 shadow-2xl">
             {/* ضفنا تأثير الأبيض والأسود للصورة مع رجوع الألوان في الـ Hover */}
             <img
-              src={MyImg.png}
+              src={nour}
               alt="Profile"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
             />
@@ -65,7 +65,7 @@ const Portfolio = () => {
               Hey, I'm
             </p>
             <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight">
-              Nour Abu Deif
+              Nour Abo Deif
             </h1>
             <p className="text-xl md:text-2xl mt-4 font-light text-zinc-500">
               Front-End Developer
