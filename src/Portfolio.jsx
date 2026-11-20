@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import profileImg from './assets/nour.png';
+import profileImg from './assets/nour2.jpg';
 
 const Portfolio = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
