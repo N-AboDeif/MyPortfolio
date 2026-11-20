@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../assets/nour.png';
+import profileImg from '../assets/nour2.jpg';
 
 export default function Curtain({ hasScrolled }) {
   return (
