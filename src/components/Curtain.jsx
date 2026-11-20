@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from '../assets/nour.png';
 
 export default function Curtain({ hasScrolled }) {
   return (
@@ -15,7 +16,7 @@ export default function Curtain({ hasScrolled }) {
 
           {/* الصورة نفسها */}
           <img
-            src="/src/assets/MyImg.png" // متنساش تحط صورتك في فولدر public وتكتب اسمها هنا
+            src={profileImg}
             alt="Nour AboDeif"
             className="relative z-10 w-28 h-28 md:w-32 md:h-32 rounded-full object-cover border border-[#083344]/50 shadow-2xl grayscale hover:grayscale-0 transition-all duration-500"
           />
